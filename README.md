@@ -8,7 +8,6 @@ This full-stack web application contains a frontend + backend framework.
 
 To contribute it's recommended to be comfortable working with the following web tech:
 
-- [ ] []()
 - [ ] [Jamstack](https://jamstack.org/)
 - [ ] [Netlify](https://app.netlify.com/)
 - [ ] [GraphQL]()

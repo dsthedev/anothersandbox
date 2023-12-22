@@ -11,6 +11,7 @@ import redwood from '@redwoodjs/vite'
 
 const viteConfig: UserConfig = {
   plugins: [redwood()],
+  assetsInclude: ['**/*.md'],
 }
 
 export default defineConfig(viteConfig)
