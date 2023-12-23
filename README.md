@@ -41,6 +41,7 @@ To contribute it's recommended to be comfortable working with the following web 
 - [ ] [Test w Jest]()
 - [ ] [UI Catalog w StoryBook]()
 - [ ] [Utility First CSS](https://tailwindcss.com/docs/utility-first)
+  - [ ] [Custom Project Color Theme](https://tailwindcss.com/docs/customizing-colors#using-custom-colors)
 - [ ] [Cells](https://redwoodjs.com/docs/tutorial/chapter0/what-is-redwood#cells)
 - [ ] [Headless Table Library](https://tanstack.com/table/v8/docs/guide/introduction)
 
@@ -59,6 +60,8 @@ yarn workspace web add marked # add package to frontend
 yarn workspace api add better-fs # add package to backend
 
 yarn rw g page page-title page-slug # Generate a new page, last param is optional
+
+yarn rw setup ui tailwindcss # Initial setup only, here for reference
 ```
 
 ### Recommended VSCode Stuff
@@ -75,6 +78,16 @@ yarn rw g page page-title page-slug # Generate a new page, last param is optiona
 - EditorConfig for VS Code
 - Prisma
 - GraphQL: Language Feature Support
+
+## Design Stuff
+
+Custom Fonts:
+
+- [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)
+- [Kalam](https://fonts.google.com/specimen/Kalam?query=kalam)
+- [Inter](https://fonts.google.com/specimen/Inter?query=Inter)
+- [Agbalumo](https://fonts.google.com/specimen/Agbalumo?query=Agbalumo)
+
 
 ## Coming Soon
 

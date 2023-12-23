@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Inter:wght@400;500;700&family=Kalam:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body,
 div,
@@ -129,49 +135,4 @@ table {
   border-spacing: 0;
 }
 
-/* My custom CSS */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-bottom: 1rem;
-}
-
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  font-size: 1.8rem;
-}
-h3 {
-  font-size: 1.6rem;
-}
-h4 {
-  font-size: 1.4rem;
-}
-h5 {
-  font-size: 1.2rem;
-}
-
-pre {
-  padding: 1rem;
-  margin: 1rem;
-  border: 1px solid #666;
-  font-family: 'Jetbrains Mono ExtraLight';
-  white-space: pre-wrap;
-  background-color: #333;
-  color: #eee;
-  /* overflow-x: auto;
-  tab-size: 4; */
-}
-pre a {
-  color: aquamarine;
-}
-
-/* pre:hover,
-pre:focus {
-  width: min-content;
-} */
+/* Secret Santa? */
