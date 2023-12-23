@@ -27,7 +27,7 @@ To contribute it's recommended to be comfortable working with the following web 
 - [ ] [TypeScript Strict Mode](https://redwoodjs.com/docs/typescript/strict-mode)
 - [ ] [Profressive Web App w React](https://create-react-app.dev/docs/making-a-progressive-web-app/)
 - [ ] [Netlify Deployment & CI]()
-- [ ] [Web Routing]()
+- [ ] [Simple Web Page Routing](https://redwoodjs.com/docs/tutorial/chapter1/first-page)
 - [ ] [Prerendering]()
 - [ ] [Authentication]()
 - [ ] [Authorization]()
@@ -55,10 +55,10 @@ yarn: ">=1.15"
 yarn redwood dev` # Run devtools and open [local site](http://localhost:8910/)
 yarn rw upgrade` # Upgrade core framework
 
-yarn workspace web add marked
-yarn workspace api add better-fs
+yarn workspace web add marked # add package to frontend
+yarn workspace api add better-fs # add package to backend
 
-yarn rw g page page-title
+yarn rw g page page-title page-slug # Generate a new page, last param is optional
 ```
 
 ### Recommended VSCode Stuff
