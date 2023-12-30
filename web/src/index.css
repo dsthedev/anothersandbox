@@ -136,3 +136,15 @@ table {
 }
 
 /* Secret Santa? */
+@layer base {
+  svg {
+    @apply fill-current
+  }
+}
+@layer components {
+}
+@layer utilities {
+  .center {
+    @apply flex items-center justify-center;
+  }
+}

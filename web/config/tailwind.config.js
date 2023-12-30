@@ -3,6 +3,9 @@ module.exports = {
   content: ['src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      borderWidth: {
+        avatar: '6px',
+      },
       colors: {
         acadia: '#392f2d' /* brown */,
         blackPearl: '#071126' /* navy blue */,
@@ -36,6 +39,12 @@ module.exports = {
           900: '#3d4d1a',
           950: '#1f2a09',
         },
+      },
+      width: {
+        18: '72px',
+      },
+      height: {
+        18: '72px',
       },
     },
     fontFamily: {

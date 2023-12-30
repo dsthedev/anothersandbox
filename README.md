@@ -21,6 +21,7 @@ To contribute it's recommended to be comfortable working with the following web 
 
 ## Standards
 
+- [ ] [Designing w Figma?!](https://www.figma.com/)
 - [ ] [CSS Reset, Still](https://meyerweb.com/eric/tools/css/reset/)
 - [ ] [Good File Structure](https://redwoodjs.com/docs/tutorial/chapter1/file-structure)
 - [ ] [Manage Node w NVM]()
@@ -41,7 +42,7 @@ To contribute it's recommended to be comfortable working with the following web 
 - [ ] [Test w Jest]()
 - [ ] [UI Catalog w StoryBook]()
 - [ ] [Utility First CSS](https://tailwindcss.com/docs/utility-first)
-  - [ ] [Custom Project Color Theme](https://tailwindcss.com/docs/customizing-colors#using-custom-colors)
+  - [ ] [Custom Project Color Theme](https://tailwindcss.com/docs/utility-first)
 - [ ] [Cells](https://redwoodjs.com/docs/tutorial/chapter0/what-is-redwood#cells)
 - [ ] [Headless Table Library](https://tanstack.com/table/v8/docs/guide/introduction)
 
@@ -60,6 +61,7 @@ yarn workspace web add marked # add package to frontend
 yarn workspace api add better-fs # add package to backend
 
 yarn rw g page page-title page-slug # Generate a new page, last param is optional
+yarn rw g component icon # Generate an Icon component for svg use
 
 yarn rw setup ui tailwindcss # Initial setup only, here for reference
 ```

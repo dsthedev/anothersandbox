@@ -1,14 +1,14 @@
 import { render } from '@redwoodjs/testing/web'
 
-import ReadmePage from './ReadmePage'
+import Avatar from './Avatar'
 
 //   Improve this test with help from the Redwood Testing Doc:
-//   https://redwoodjs.com/docs/testing#testing-pages-layouts
+//    https://redwoodjs.com/docs/testing#testing-components
 
-describe('ReadmePage', () => {
+describe('Avatar', () => {
   it('renders successfully', () => {
     expect(() => {
-      render(<ReadmePage />)
+      render(<Avatar />)
     }).not.toThrow()
   })
 })
